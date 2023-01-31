@@ -9,11 +9,11 @@ int a = Convert.ToInt32(Console.ReadLine());
 
 a = Math.Abs(a);
 
-if (a>=100 && a<1000)
+if (a >= 100 && a < 1000)
 {
-    Console.WriteLine($"Вторая цифра числа {a}: {((a - a/100*100 - a%10)/10)}");
+    Console.WriteLine($"Вторая цифра числа {a}: {((a - a / 100 * 100 - a % 10) / 10)}");
 }
 else
 {
-Console.WriteLine($"Число {a} не трёхзначное");
+    Console.WriteLine($"Число {a} не трёхзначное");
 }
